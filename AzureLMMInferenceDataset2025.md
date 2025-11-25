@@ -41,8 +41,8 @@ You can unzip the file with `gunzip -k AzureLMMInferenceTrace_multimodal.csv.gz`
 |--|--|
 | TIMESTAMP | Request invocation time |
 | NumImages | Number of images in the request |
-| ContextTokens | Number of context tokens |
-| GeneratedTokens | Number of generated tokens |
+| ContextTokens | Number of context tokens (including text and image) |
+| GeneratedTokens | Number of generated tokens (text) |
 
 ### Prompt content
 
